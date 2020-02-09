@@ -20,7 +20,6 @@ ROS_BUILD_DEPENDS = " \
     controller-manager-msgs \
     roscpp \
     std-msgs \
-    
 "
 
 ROS_BUILDTOOL_DEPENDS = " \
