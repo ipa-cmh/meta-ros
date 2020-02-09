@@ -27,6 +27,7 @@ ROS_BUILD_DEPENDS = " \
 
 ROS_BUILDTOOL_DEPENDS = " \
     catkin-native \
+    ${PYTHON_PN}-pyyaml-native \
 "
 
 ROS_EXPORT_DEPENDS = " \
