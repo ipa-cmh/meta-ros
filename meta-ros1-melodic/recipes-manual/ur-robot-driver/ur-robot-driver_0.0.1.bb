@@ -11,7 +11,7 @@ ROS_AUTHOR = "Simon Rasmussen"
 HOMEPAGE = "http://wiki.ros.org/ur_robot_driver"
 SECTION = "master"
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=090c1f08fe66f634957237df6847a5b4fa9f9bc8"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
 ROS_CN = "ur_robot_driver"
 ROS_BPN = "ur_robot_driver"
