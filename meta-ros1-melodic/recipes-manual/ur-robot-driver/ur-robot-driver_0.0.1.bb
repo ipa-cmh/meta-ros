@@ -18,21 +18,21 @@ ROS_BPN = "ur_robot_driver"
 
 ROS_BUILD_DEPENDS = " \
     actionlib \
-    control_msgs \
-    controller_manager \
-    geometry_msgs \
-    hardware_interface \
+    control-msgs \
+    controller-manager \
+    geometry-msgs \
+    hardware-interface \
     pluginlib \
     roscpp \
-    sensor_msgs \
+    sensor-msgs \
     tf \
-    tf2_msgs \
-    tf2_geometry_msgs \
-    trajectory_msgs \
-    ur_controllers \
-    ur_dashboard_msgs \
-    ur_msgs \
-    std_srvs \
+    tf2-msgs \
+    tf2-geometry-msgs \
+    trajectory-msgs \
+    ur-controllers \
+    ur-dashboard-msgs \
+    ur-msgs \
+    std-srvs \
 "
 
 ROS_BUILDTOOL_DEPENDS = " \
@@ -41,49 +41,49 @@ ROS_BUILDTOOL_DEPENDS = " \
 
 ROS_EXPORT_DEPENDS = " \
     actionlib \
-    control_msgs \
-    controller_manager \
-    geometry_msgs \
-    hardware_interface \
+    control-msgs \
+    controller-manager \
+    geometry-msgs \
+    hardware-interface \
     pluginlib \
     roscpp \
-    sensor_msgs \
+    sensor-msgs \
     tf \
-    tf2_msgs \
-    tf2_geometry_msgs \
-    trajectory_msgs \
-    ur_controllers \
-    ur_dashboard_msgs \
-    ur_msgs \
-    std_srvs \
+    tf2-msgs \
+    tf2-geometry-msgs \
+    trajectory-msgs \
+    ur-controllers \
+    ur-dashboard-msgs \
+    ur-msgs \
+    std-srvs \
 "
 
 ROS_BUILDTOOL_EXPORT_DEPENDS = ""
 
 ROS_EXEC_DEPENDS = " \
     actionlib \
-    control_msgs \
-    controller_manager \
-    geometry_msgs \
-    hardware_interface \
+    control-msgs \
+    controller-manager \
+    geometry-msgs \
+    hardware-interface \
     pluginlib \
     roscpp \
-    sensor_msgs \
+    sensor-msgs \
     tf \
-    tf2_msgs \
-    tf2_geometry_msgs \
-    trajectory_msgs \
-    ur_controllers \
-    ur_dashboard_msgs \
-    ur_msgs \
-    std_srvs \
-    force_torque_sensor_controller  \
-    joint_state_controller  \
-    joint_trajectory_controller  \
-    robot_state_publisher  \
+    tf2-msgs \
+    tf2-geometry-msgs \
+    trajectory-msgs \
+    ur-controllers \
+    ur-dashboard-msgs \
+    ur-msgs \
+    std-srvs \
+    force-torque-sensor-controller  \
+    joint-state-controller  \
+    joint-trajectory-controller  \
+    robot-state-publisher  \
     socat  \
-    ur_description  \
-    velocity_controllers  \
+    ur-description  \
+    velocity-controllers  \
 "
 
 # Currently informational only -- see http://www.ros.org/reps/rep-0149.html#dependency-tags.
@@ -98,7 +98,7 @@ RDEPENDS_${PN} += "${ROS_EXEC_DEPENDS}"
 
 # matches with: https://github.com/ros-industrial-release/abb-release/archive/release/melodic/abb_driver/1.3.1-1.tar.gz
 ROS_BRANCH ?= "branch=release/melodic/abb_driver"
-SRC_URI = "git://github.com/ipa-cmh/Universal_Robots_ROS_Driver;branch=ur-robot-driver;protocol=https"
+SRC_URI = "git://github.com/ipa-cmh/Universal_Robots_ROS_Driver;branch=ur_robot_driver;protocol=https"
 SRCREV = "090c1f08fe66f634957237df6847a5b4fa9f9bc8"
 S = "${WORKDIR}/git"
 
