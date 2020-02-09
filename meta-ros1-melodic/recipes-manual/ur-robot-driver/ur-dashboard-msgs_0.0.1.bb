@@ -18,7 +18,7 @@ ROS_BPN = "ur_dashboard_msgs"
 
 ROS_BUILD_DEPENDS = " \
     actionlib-msgs \
-    message_generation \
+    message-generation \
 "
 
 ROS_BUILDTOOL_DEPENDS = " \
@@ -37,7 +37,7 @@ ROS_BUILDTOOL_EXPORT_DEPENDS = " \
 
 ROS_EXEC_DEPENDS = " \
     actionlib-msgs \
-    message_runtime \
+    message-runtime \
 "
 
 # Currently informational only -- see http://www.ros.org/reps/rep-0149.html#dependency-tags.
