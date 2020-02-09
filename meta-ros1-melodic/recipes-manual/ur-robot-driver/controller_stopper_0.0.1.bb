@@ -14,12 +14,12 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
 ROS_CN = "ur_robot_driver"
-ROS_BPN = "ur_dashboard_msgs"
+ROS_BPN = "controller_stopper"
 
 ROS_BUILD_DEPENDS = " \
     controller-manager-msgs \
     roscpp \
-    std_msgs \
+    std-msgs \
     
 "
 
@@ -33,13 +33,13 @@ ROS_EXPORT_DEPENDS = ""
 ROS_BUILDTOOL_EXPORT_DEPENDS = " \
     controller-manager-msgs \
     roscpp \
-    std_msgs \
+    std-msgs \
 "
 
 ROS_EXEC_DEPENDS = " \
     controller-manager-msgs \
     roscpp \
-    std_msgs \
+    std-msgs \
 "
 
 # Currently informational only -- see http://www.ros.org/reps/rep-0149.html#dependency-tags.
