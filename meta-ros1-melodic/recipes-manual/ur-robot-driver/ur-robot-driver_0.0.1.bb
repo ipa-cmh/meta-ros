@@ -98,7 +98,7 @@ RDEPENDS_${PN} += "${ROS_EXEC_DEPENDS}"
 
 # matches with: https://github.com/ros-industrial-release/abb-release/archive/release/melodic/abb_driver/1.3.1-1.tar.gz
 ROS_BRANCH ?= "branch=release/melodic/abb_driver"
-SRC_URI = "git://github.com/ipa-cmh/Universal_Robots_ROS_Driver;ur_robot_driver;protocol=https"
+SRC_URI = "git://github.com/ipa-cmh/Universal_Robots_ROS_Driver;branch=ur-robot-driver;protocol=https"
 SRCREV = "090c1f08fe66f634957237df6847a5b4fa9f9bc8"
 S = "${WORKDIR}/git"
 
