@@ -60,7 +60,7 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS}"
 RDEPENDS_${PN} += "${ROS_EXEC_DEPENDS}"
 
 
-SRC_URI = "git@github.com:ipa-cmh/Universal_Robots_ROS_Driver.git;ur_controllers;protocol=https"
+SRC_URI = "git@github.com:ipa-cmh/Universal_Robots_ROS_Driver.git;branch=ur_controllers;protocol=https"
 SRCREV = "48296ae62175e45eecf26e813d22299c1d56c54c"
 S = "${WORKDIR}/git"
 
