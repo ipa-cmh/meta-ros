@@ -10,7 +10,7 @@ AUTHOR = "Felix Exner"
 ROS_AUTHOR = "Felix Exner"
 HOMEPAGE = "http://wiki.ros.org/ur_robot_driver"
 SECTION = "master"
-LICENSE = "Apache 2.0"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
 ROS_CN = "ur_robot_driver"
