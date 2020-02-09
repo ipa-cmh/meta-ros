@@ -11,7 +11,7 @@ ROS_AUTHOR = "Andrew Glusiec"
 HOMEPAGE = "http://wiki.ros.org/ur_robot_driver"
 SECTION = "master"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=2c00b8d2854109dbebef7818b4dae1e2"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 ROS_CN = "ur_robot_driver"
 ROS_BPN = "ur_msgs"
