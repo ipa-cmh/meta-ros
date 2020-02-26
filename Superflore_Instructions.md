@@ -147,7 +147,7 @@ sh scripts/ros-generate-cache.sh ROS_DISTRO RELEASE-YYYYMMDD PATH-TO-LOCAL-ROS-R
 
 Example:
 ```sh
-sh scripts/ros-generate-cache.sh melodic release-melodic-20180523 ~/rosdistro eb0f60951c4df8cb1aaf9b945539de5647428c38
+sh scripts/ros-generate-cache.sh melodic 20180523 ~/rosdistro eb0f60951c4df8cb1aaf9b945539de5647428c38
 
 ```
 
